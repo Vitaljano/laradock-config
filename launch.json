@@ -1,0 +1,19 @@
+//Xdebug config for vscode
+
+{
+    "configurations": [
+        {
+            "name": "Listen for XDebug",
+            "type": "php",
+            "request": "launch",
+            "port": 9000,
+            "log": true,
+            "pathMappings": {
+                "/var/www/lesson2": "${workspaceRoot}",
+            },
+            "ignore": [
+                "**/vendor/**/*.php"
+            ]
+        }
+    ]
+}
